@@ -1,0 +1,24 @@
+:root {
+  --vinotinto: #800E0E;
+  --grisClaro: #DDDDDD;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#backToTopBtn.show {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+
+.usuario {
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
